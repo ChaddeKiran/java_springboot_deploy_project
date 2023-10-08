@@ -1,5 +1,5 @@
 ---
-- name: Install and Deploy Docker application
+- name: Install and Deploy Docker application 
   hosts: all
   become: true
 
@@ -19,4 +19,4 @@
         name: springboot_app
         image: chaddekiran/springboot_microservice_deployment:latest
         ports:
-          - "80:8085"  # Adjust port as needed
+          - "80:8085" 
